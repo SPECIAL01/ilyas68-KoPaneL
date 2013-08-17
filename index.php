@@ -27,7 +27,7 @@ define  ('GUVENLIK',true);
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="imagetoolbar" content="no" />
-<meta name="copyright" content="http://knight.cakirhost.com" />
+<meta name="copyright" content="http://<?php echo $sitename; ?>" />
 <title>Knight Online World = Free to Play MMORPG, Join the epic PVP WAR Knight world, KnightOnline world, kol, usko, Ko, Kol, Knight, Kinayt, Knight oyun, mmo knight, mmorpg knight, knight online, knightonline, pvp, pvp mmo, pvp mmorpg, pk mmo, pk mmorpg</title>
 <script type="text/javascript" src="common_js/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="common_js/common.js"></script>
@@ -35,7 +35,7 @@ define  ('GUVENLIK',true);
 <!-- BEGIN google Analytics-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-38026103-4', 'knight.cakirhost.com');  ga('send', 'pageview');
+  ga('create', 'UA-38026103-4', '<?php echo $sitename; ?>');  ga('send', 'pageview');
 </script>
 <!-- END google Analytics-->
 <!-- BEGIN Tynt Script -->
@@ -84,7 +84,7 @@ window.onresize = function(){
 </script>
 	<div id="header">
 		<div id="gnb">
-			<h1><a href="http://www.knightonlineworld.com">KNIGHT ONLINE</a></h1>
+			<h1><a href="http://<?php echo $sitename; ?>">KNIGHT ONLINE</a></h1>
 			<p class="account"><a href="/account/">ACCOUNT</a></p>
 		</div>
 		<div id="gnb_TrustGuard">

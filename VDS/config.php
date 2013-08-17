@@ -2,7 +2,7 @@
 
 
 include ('includes/security/antisql.php');
-$sitename = "site adý"; /* örnek :  knight.cakirhost.com  þeklinde */
+
 $dbname = "kn_online";
 $dbuser = "ko";
 $dbpass = "ko";
@@ -13,7 +13,7 @@ $conn = odbc_connect('Driver={SQL Server};Server=.;Database=kn_online','$dbuser'
 
 /* KOPanel Genel Ayarlari */
 
-
+$sitename 	= "site adý"; /* örnek :  knight.cakirhost.com  þeklinde */
 $title		= "KnightOnline | Resmi Web Sitesi";
 $slogan		= "KnightOnline";
 $slogan1	= "";
