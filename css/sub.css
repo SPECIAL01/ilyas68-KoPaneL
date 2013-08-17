@@ -1,0 +1,477 @@
+@charset "utf-8";
+/* 
+ * ------------------------------------------------------------
+ * first written: Yang Young bok 110826
+ * updated: 120525
+ * ------------------------------------------------------------
+ * */
+
+@import url("default.css");
+
+/* layout */
+#wrap{background:url(http://download.nttgame.com/knight/images/usko/main/bg_wrap_2013_01_sub_u.jpg) no-repeat center 0;}
+#content{padding:20px; width:692px; min-height:650px; _height:650px;}
+.section{position:relative; padding:0 10px; background:#131313;}
+
+/* 50584 20121029 Update */
+#wrap_50584{height:882px;background: url(http://download.nttgame.com/knight/images/usko/signup/bg_50584.jpg) no-repeat center 0;}/* min-width:1900px;width:100%; */
+#content50584 {position:relative; padding:30px 20px;width:438px;height:730px;top:0px;margin:0 auto;}
+#content50584 .section{position:relative; padding:0 10px 0 10px;}
+#content50584 .section h4{margin:40px 0 10px 0; padding:0 0 0 15px; background:url(http://download.nttgame.com/knight/images/usko/common/bu_h.gif) no-repeat 1px 4px; font-family:"Trebuchet MS"; font-size:21px; color:#8B6444;}
+#content50584 .section h4.first{margin-top:90px;}
+#content50584 .section.account p{margin:0 0 10px 0; font-size:13px; line-height:18px;}
+#content50584 .section.account p.join{padding:0 0 0 19px; text-indent:-19px;color:#d6d6d6;font-size:12px; line-height:18px;}
+#content50584 .section.account p.join a{color:#DE852F;}
+#content50584 .section.account p.facebook img{display:block; margin:10px 0 20px 0;}
+#content50584 .section.account .tableH p{margin:5px 0 0 0; font-size:12px;}
+#content50584 .section.account .popup{position:absolute; top:0; left:0; padding:30px 10px 5px 10px; width:500px; border:3px solid #383838; background:#131313;}
+#content50584 .section.account .popup .intention{text-align:right;}
+#content50584 .section.account .popup .close{position:absolute; top:10px; right:10px;}
+#content50584 .tableH{border-collapse:collapse; margin:0 0 10px 0; width:100%; border-top:2px solid #232323;}
+#content50584 .tableH th,
+#content50584 .tableH td{border-bottom:1px solid #232323;}
+#content50584 .tableH th{padding:5px 8px 5px 0; width:116px; background:#191919; color:#8D8D8D;text-align:right;}
+#content50584 .tableH td{padding:5px 10px;width:143px;background:#0b0b07;}
+#content50584 .tableH td input,
+#content50584 .tableH td label,
+#content50584 .tableH td img{vertical-align:middle;}
+#content50584 .tableH td label{margin:0 0 0 10px;}
+#content50584 .tableH td input.text{width:485px;}
+#content50584 .tableH td input.text.etc{width:170px;}
+#content50584 .tableH td input.text.ibanner{width:424px;}
+#content50584 .tableH td input.text.file{width:443px;}
+#content50584 .tableH td input.text.half{width:210px;}
+#content50584 .tableH td textarea.text{width:480px; height:130px; font-size:12px;}
+#content50584 .tableH td select{width:110px;}
+.footer_50584{position:relative;width:478px;height:80px; padding:0;margin:0 auto;}
+.footer_50584 .logo{position:absolute;width:107px;height:56px;top:13px;}
+.footer_50584 .text{position:absolute;font-size:12px;width:355px;height:40px;text-align:left;left:123px;top:26px;}
+
+/* content */
+input.text{padding:2px 0 0 5px; height:15px; border:1px solid #484848; background:#232323; color:#626262;}
+input.radio{margin:0 5px 0 0; width:13px; height:13px; vertical-align:middle;}
+textarea.text{padding:5px; border:1px solid #484848; background:#232323; color:#626262; overflow:auto;}
+#content p.path{height:21px; text-align:right;}
+#content h3{height:32px; margin:0 0 15px 0; border-bottom:1px solid #484848;}
+.submit_title{position:relative;width:692px;height:32px; border-bottom:1px solid #484848;margin-bottom:15px;}
+.submit_title .btn{text-align:right;left:490px;}
+.submit_title li{position:relative;display:inline;}
+.section h4{margin:40px 0 15px 0; padding:0 0 0 15px; background:url(http://download.nttgame.com/knight/images/usko/common/bu_h.gif) no-repeat 1px 4px; font-family:"Trebuchet MS"; font-size:16px; color:#8B6444;}
+.section h4.first{margin-top:0;}
+.tabMenu{position:relative; border-bottom:1px solid #232323;}
+.tabMenu li{position:relative; bottom:-1px; display:inline; margin:0 -2px 0 0;}
+.box{margin:10px 0 20px 0; padding:10px 14px; border:1px solid #565656; background:#484848; color:#8D8D8D;}
+.box h4{margin:0 0 5px 0; padding:0; background:none; font-size:14px; color:#DE852F;}
+.box em{font-style:normal; color:#DE852F;}
+.stress1{color:#D02121 !important;}
+.stress2{color:#725238 !important;}
+
+/* guide */
+.section.guide{font-size:14px; line-height:21px;}
+.section.guide h4{margin-bottom:10px; background:url(http://download.nttgame.com/knight/images/usko/common/bu_h_guide.gif) no-repeat 0 6px;}
+.section.guide h5{margin:20px 0 5px 0; color:#725238; font-size:14px;}
+.section.guide h5 strong{color:#BD8255;}
+.section.guide h6{margin:15px 0 5px 0; color:#8D8D8D; font-size:14px;}
+.section.guide p{margin:5px 0 25px 0;}
+.section.guide .imgBlock img{display:block; margin:5px 0;}
+.section.guide .imgInline{overflow:hidden; _zoom:1;}
+.section.guide .imgInline img{float:left; margin:0 15px 0 0;}
+.section.guide .imgLeft{overflow:hidden; _zoom:1;}
+.section.guide .imgLeft img{float:left; margin:0 25px 0 0;}
+.section.guide .imgLeft em{font-style:normal; color:#FF6363;}
+.section.guide .imgLeft span.vod{float:left; margin:0 25px 0 0; width:213px; height:139px; background:#4D4D4D;}
+.section.guide .imgEtc ol.common{position:relative; float:right; margin:-280px 0 0 0; width:400px;}
+.section.guide ol.common,
+.section.guide ul.common{margin:5px 0 0 0;}
+.section.guide ol.common li,
+.section.guide ul.common li{margin:0 0 7px 0;}
+.section.guide ol.circle li,
+.section.guide ul.circle li{padding:0 0 0 18px; text-indent:-18px;}
+.section.guide ol.hyphen li{padding:0 0 0 22px; text-indent:-22px;}
+.section.guide ol.number li{padding:0 0 0 13px; text-indent:-13px;}
+.section.guide ol.number li li{padding:0; text-indent:0;}
+.section.guide ol.common ul{margin:3px 0 0 5px;}
+.section.guide ol.common ul li{margin:0;}
+.section.guide ol.common li.map img{display:block; margin:10px 0;}
+.section.guide ol.imgBlock li{margin:0 0 15px 0;}
+.section.guide ol.imgBlock li ul{margin:5px 0 0 15px;}
+.section.guide ol.imgBlock li li{margin:0 0 5px 10px; text-indent:-10px;}
+.section.guide ol ol.imgBlock{margin:10px 0 0 0;}
+.section.guide ul.dot li{padding:0 0 0 15px; text-indent:-15px;}
+
+.interface{position:relative;}
+.interface .view{width:540px; height:406px;}
+.interface ul{margin:20px 0 0 0;}
+.interface li{display:inline; margin:0 6px 0 0;}
+.interface li img{margin:0 0 7px 0;}
+.interface li .view{position:absolute; top:0; left:0;}
+.interface li .view img{margin:0;}
+
+.character dl.logo{margin:0 0 20px 0; overflow:hidden; _zoom1;}
+.character dl.logo dt,
+.character dl.logo dd{float:left;}
+.character .tabMenu{margin:0; border-bottom:1px solid #513C2C;}
+.character .tabMenu li{bottom:0;}
+.character .view{position:relative; overflow:hidden; _zoom:1;}
+.character .view .view{padding:20px 0 0 0; min-height:500px; _height:500px; overflow:visible;}
+.character .view .view dt{font-weight:bold; color:#725238;}
+.character .view .view h6{margin:5px 0;}
+.character .view .view p{margin:5px 0 10px 0;} 
+.character .view #warrior{background:url(http://download.nttgame.com/knight/images/usko/guide/bg_character_warrior.jpg) no-repeat right 0;}
+.character .view #rogue{background:url(http://download.nttgame.com/knight/images/usko/guide/bg_character_rogue.jpg) no-repeat right 0;}
+.character .view #magician{background:url(http://download.nttgame.com/knight/images/usko/guide/bg_character_magician.jpg) no-repeat right 0;}
+.character .view #priest{background:url(http://download.nttgame.com/knight/images/usko/guide/bg_character_priest.jpg) no-repeat right 0;}
+.character.elmorad .view #warrior,
+.character.elmorad .view #rogue,
+.character.elmorad .view #magician,
+.character.elmorad .view #priest{background-position:right -1000px;}
+
+/* wars */
+.ronark{padding-top:20px; overflow:hidden; _zoom:1;}
+.ronark li{float:left; text-align:center; font-weight:bold; color:#725238;}
+.ronark li img{display:block;}
+.listJuraid{word-spacing:1px;}
+.listJuraid li{display:inline;}
+.castle .tabMenu{margin:0; border-bottom:1px solid #513C2C;}
+.castle .tabMenu li{bottom:0;}
+.castle .view p strong{color:#AAAAAA;}
+.castle .view p em{font-style:normal; color:#725238;}
+.castle #castle3.view{background:url(http://download.nttgame.com/knight/images/usko/wars/bg_castle_intro.jpg) no-repeat right 0;}
+.castle #castle3.view .tableW{width:485px; font-size:12px;}
+
+/* download */
+.section.download p{margin:15px 16px; font-size:14px;}
+.section.download p.btn{margin:0 0 20px 0; font-size:14px; line-height:21px; overflow:hidden; _zoom:1;}
+.section.download p.btn img{float:left; margin:0 25px 0 0;}
+.section.download ul.vga{margin:0 0 -5px 16px;}
+.section.download ul.vga li{display:inline; margin:0 10px 0 0;}
+
+/* account */
+.section.account p{margin:0 0 10px 0; font-size:14px; line-height:21px;}
+.section.account p.join{padding:0 0 0 19px; text-indent:-19px;}
+.section.account p.join a{color:#DE852F;}
+.section.account p.facebook img{display:block; margin:10px 0 20px 0;}
+.section.account .tableH p{margin:5px 0 0 0; font-size:12px;}
+.section.account .popup{position:absolute; top:0; left:0; padding:30px 10px 5px 10px; width:500px; border:3px solid #383838; background:#131313;}
+.section.account .popup .intention{text-align:right;}
+.section.account .popup .close{position:absolute; top:10px; right:10px;}
+
+/* board */
+.pageTotal{margin:0 0 10px 0; padding:0 0 0 7px; background:url(http://download.nttgame.com/knight/images/usko/common/board/bu_dot.gif) no-repeat 0 7px; font-size:11px; color:#646464;}
+.pageTotal span{margin:0 5px;}
+.pagination{margin:20px 0 10px 0; text-align:center; word-spacing:5px;}
+.pagination a{color:#626262;}
+.pagination img{margin:-3px 0 0 0; vertical-align:middle;}
+.btnGroup{margin:10px 0 20px 0; text-align:right;}
+.btnGroup.center{text-align:center;}
+.fSearch{text-align:center;}
+.fSearch *{vertical-align:middle;}
+.fSearch input.text{width:126px;}
+.fSearch input.btn{width:58px; height:19px; border:0; background:url(http://download.nttgame.com/knight/images/usko/common/board/btn_search.gif) no-repeat; text-indent:-9999px; cursor:pointer;}
+.fSearch select{width:100px;border:1px solid #ADACB1; color:#626262;background:#232323;}
+.fRank{padding:9px 5px; font-weight:bold;}
+.fRank label{margin:0 30px 0 0;}
+.rank_select {width:140px;border:1px solid #ADACB1; color:#626262;background:#232323;}
+
+.viewBoard .title{color:#626262; overflow:hidden; _zoom:1;}
+.viewBoard .title.subject{background:#484848; color:#8D8D8D;}
+.viewBoard .title dt,
+.viewBoard .title dd{float:left; padding:7px 0; background:url(http://download.nttgame.com/knight/images/usko/common/board/line_title.gif) no-repeat 0 -42px;}
+.viewBoard .title.subject dt,
+.viewBoard .title.subject dd{background-position:0 8px;}
+.viewBoard .title dt{margin:0 0 0 -1px; width:86px; text-align:center;}
+.viewBoard .title dd{padding-left:10px; width:140px;}
+.viewBoard .title dd.views{width:auto;}
+.viewBoard .title.subject dd{width:auto;}
+.viewBoard .view{padding:15px; min-height:250px; _height:250px; border:solid #232323; border-width:1px 0;}
+.viewBoard .view01{height:16px;padding:0px;}
+
+.listPrev{border-top:1px solid #232323;}
+.listPrev li{padding:7px; border-bottom:1px solid #232323;}
+.listPrev li span{display:inline-block; margin:0 10px 0 0; width:120px; background:url(http://download.nttgame.com/knight/images/usko/common/board/line_prev.gif) no-repeat right 5px; color:#626262; text-align:center;}
+
+.listScreen{padding:15px 0 0 0; border:solid #232323; border-width:1px 0; overflow:hidden; _zoom:1;}
+.listScreen li{float:left; margin:0 0 0 15px; height:196px; text-align:center; color:#626262; display:inline;}
+.listScreen li strong img{display:block; margin:0 0 10px 0; padding:8px; width:186px; height:117px; border:1px solid #616161; background:#484848;}
+.listScreen li strong{display:block;}
+
+.fFan{position:relative; margin:0 0 -20px 0; text-align:right; z-index:10;}
+.fFan select{border:1px solid #ABADB3; font-size:14px;}
+.listFan{border-bottom:1px solid #232323;}
+.listFan li{margin:0 0 -1px 0; padding:15px 0; border-bottom:1px dashed #232323; overflow:hidden; _zoom:1;}
+.listFan li a{text-decoration:none;}
+.listFan li li a:hover{text-decoration:underline;}
+.listFan li .image{float:left; margin:0 15px 0 0; width:135px; height:83px; border:1px solid #616161;}
+.listFan li .name{color:#808080;}
+.listFan li .name img{margin:0 10px 0 0; vertical-align:middle;}
+.listFan li li{margin:10px 0 0 0; padding:0; border:none; color:#626262;}
+
+.fFaq{padding:6px; border:1px solid #424242; background:#323232; text-align:center; font-weight:bold; color:#8D8D8D;}
+.fFaq input{vertical-align:middle;}
+.fFaq input.text{width:465px;}
+.fFaq input.btn{width:58px; height:19px; border:0; background:url(http://download.nttgame.com/knight/images/usko/common/board/btn_search.gif) no-repeat; text-indent:-9999px; cursor:pointer;}
+
+.fComment{margin:30px 0 0 0;}
+.fComment .comment{padding:5px; background:#484848; text-align:center; font-size:12px;}
+.fComment .comment label{margin:0 5px 0 0; padding:0 20px 0 0; background:url(http://download.nttgame.com/knight/images/usko/common/board/bu_comment.gif) no-repeat right 0; font-weight:bold;}
+.fComment .comment input{vertical-align:middle;}
+.fComment input.text{padding:0 0 0 5px; width:505px; height:20px; border:0; color:#626262;}
+.fComment input.btn{width:50px; height:20px; border:0; background:url(http://download.nttgame.com/knight/images/usko/common/board/btn_input_reply.gif) no-repeat; text-indent:-9999px; cursor:pointer;}
+.fComment .list li{padding:12px 20px; border-bottom:1px dotted #484848;}
+.fComment .list li img{vertical-align:middle;}
+.fComment .list li .detail img{margin:0 0 0 10px;}
+.fComment .list li ul{margin:0 -20px -13px -20px; padding:6px 0;}
+.fComment .list li li{padding:5px 20px 5px 45px; border:0; background:url(http://download.nttgame.com/knight/images/usko/common/board/bu_reply.gif) no-repeat 20px 10px;}
+.fComment .list .author{display:block; margin:0 0 5px 0; color:#9C7935;}
+.fComment .list input.btn{background-image:}
+
+
+/* reply view */
+.reply_view{padding:12px 0 8px 10px; border-bottom:1px dotted #2e2927; overflow:hidden; _zoom:1;}
+.reply_view img{vertical-align:middle !important;}
+.reply_view p{padding-left:15px;}
+.reply_view p img.fl{margin-right:10px;}
+.reply_view .point01{padding:0 0 5px 0;}
+.reply_view p.Re01{background:no-repeat left 3px; margin:6px 0 0 17px; padding-left:10px; color:#575757;}
+/* .reply_view p.Re01  margin, left padding */
+.reply_view p.Re01 input{vertical-align:middle;}
+.reply_view span.replyText{display:block; color:#575757; word-wrap:break-word;}
+.reply_view span.replyText img{margin:0 0 0 8px;}
+.reply_view span.point01 img{float:left; margin:0 5px 0 0;}
+.reply_view span.point01 img.point{float:none;margin:0 0 0 0;}
+
+
+/* table */
+.tableW{border-collapse:collapse; width:100%;}
+.tableW thead th{padding:6px 5px; background:#484848; color:#8D8D8D;}
+.tableW thead .th4{padding:6px 5px; background:#484848; color:#8D8D8D;width:140px;}
+.tableW tbody td{padding:5px 10px; border-bottom:1px solid #232323; text-align:center; color:#626262;}
+.tableW tbody td.left{text-align:left;}
+.tableW tbody td img{margin:0 5px; vertical-align:middle;}
+.tableW tbody th{padding:6px; background:#404040; color:#8D8D8D; width:120px;} /* view previous, next add by yoonsoyern*/
+
+.tableH{border-collapse:collapse; margin:0 0 10px 0; width:100%; border-top:2px solid #232323;}
+.tableH th,
+.tableH td{border-bottom:1px solid #232323;}
+.tableH th{padding:5px 0; width:160px; background:#191919; color:#8D8D8D;}
+.tableH td{padding:5px 10px;}
+.tableH td input,
+.tableH td label,
+.tableH td img{vertical-align:middle;}
+.tableH td label{margin:0 0 0 10px;}
+.tableH td input.text{width:485px;}
+.tableH td input.text.etc{width:170px;}
+.tableH td input.text.ibanner{width:424px;}
+.tableH td input.text.file{width:443px;}
+.tableH td input.text.half{width:210px;}
+.tableH td textarea.text{width:480px; height:130px; font-size:12px;}
+.tableH td select{width:110px;}
+
+.tableFaq{margin-top:15px;}
+.tableFaq tbody td{padding:12px; border-right:1px solid #232323;}
+.tableFaq tbody td.left{border-right:0;}
+.tableFaq .view{margin:10px 0 0 0; padding:8px 10px; background:#222222; color:#626262;}
+
+.tableDownload{border-collapse:collapse; background:#353131;}
+.tableDownload th,
+.tableDownload td{padding:10px 70px 10px 40px; text-align:left;}
+.tableDownload th{border-bottom:1px solid #5D5A5A;}
+.tableDownload .line{border-right:1px solid #5D5A5A;}
+
+.tableSkill{margin:20px 0 0 0; border-collapse:collapse; width:100%; font-size:12px; color:#A2A2A2;}
+.tableSkill th,
+.tableSkill td{padding:2px 10px; border-bottom:2px solid #131313; text-align:center;}
+.tableSkill th{background:#524734;}
+.tableSkill td{background:#3D3D3D;}
+.tableSkill tr.bg td{background:#313131;}
+.tableSkill .left{text-align:left;}
+
+.tableGrade{font-size:12px;}
+.tableGrade td.left{padding-left:25px;}
+.tableGrade td.left img{margin:0 25px 0 0; vertical-align:middle;}
+
+.tableRank{font-size:12px;}
+.tableRank thead th{padding:4px;}
+.tableRank span.icon{display:inline-block; width:11px; height:11px; background:url(http://download.nttgame.com/knight/images/usko/common/board/bu_rank.gif) no-repeat; vertical-align:middle; text-indent:-9999px;}
+.tableRank span.icon.up{background-position:center 0;}
+.tableRank span.icon.down{background-position:center -50px;}
+
+.tableReward .line{border-right:1px solid #232323;}
+
+/* guide 20111013 */
+.text_features_b {font-style:normal;color:#b17f54;font-size:14px;font-weight:bold;}
+.text_features {font-style:normal;color:#b17f54;font-size:14px;}
+.text_gray {font-style:normal;color:#c0bdbb;font-size:14px;}
+.features_cont {font-style:normal;width:672px;height:600px;position:relative;}
+.features_img {width:249px;height:220px;position:absolute;}
+.features_txt {width:406px;height:220px;position:absolute;}
+#select{width:300px;height:19px;position:absolute;color:#626262;background:#232323;left: 140px;top: 257px;}
+.select {width:300px;height:19px;font-size:12px; color:#626262;background:#232323;font-family:dotum,Dotum,lucida grande,tahoma,verdana,arial,sans-serif;border:1px solid #484848}
+
+/* Update 20120525 */
+.text_features_b a{color:#b17f54;}
+.text_features_b a:link{color:#b17f54;}
+.text_features_b a:visited{color:#b17f54;text-decoration:none;}
+.text_features_b a:hover{color:#b17f54;text-decoration:underline;}
+
+/* rank */
+.rank_nation {width:672px;height:30px;padding-bottom:5px;}
+.left {text-align:left;}
+.right {text-align:right;}
+.server {width:400px;text-align:left;padding:0 0 0 15px;position:absolute;font-family:"Trebuchet MS";font-size:12px;font-weight:bold;letter-spacing:-1px;}
+.server {color:#808080;}
+.server a{color:#808080;}
+.server a:link{color:#808080;}
+.server a:visited{color:#808080;text-decoration:none;}
+.server a:hover{color:#725238;text-decoration:underline;}
+
+.server_blank {padding:0 5px 0 5px;}
+.nation {width:220px;font-size:12px;padding:0 0 5px 5px;font-weight:bold;left:457px;position:absolute;}
+.ranking {width:672px;height:215px;padding-bottom:5px;background: url(http://download.nttgame.com/knight/images/usko/wars/ranking.gif) no-repeat top;font-size:12px;color:#ffffff;text-align:center; position:relative;}
+.rank1 {width:224px;font-style:normal;padding:0px;top:8px;left:0px;position:absolute;line-height:18px;font-family:Tahoma;}
+.rank2 {width:224px;font-style:normal;padding:0px;top:8px;left:225px;position:absolute;line-height:18px;font-family:Tahoma;}
+.rank3 {width:224px;font-style:normal;padding:0px;top:8px;left:449px;position:absolute;line-height:18px;font-family:Tahoma;}
+.ranking span.icon{display:inline-block; width:11px; height:11px; background:url(http://download.nttgame.com/knight/images/usko/common/board/bu_ladder_rank.gif) no-repeat; vertical-align:middle; text-indent:-9999px;}
+.ranking span.icon.up{background-position:center 0;}
+.ranking span.icon.down{background-position:center -50px;}
+.tableRank td {font-family:Tahoma;}
+.tableW thead .th1{width:92px;}
+.tableW thead .th2{width:225px;}
+.tableW thead .th3{width:71px;}
+.tableW thead .th4{width:140px;}
+.tableW thead .th5{width:140px;}
+.tableW thead .th_krank1{width:40px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_krank2{width:110px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_krank3{width:153px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_krank4{width:164px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_krank5{width:100px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_krank6{width:100px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_lrank1{width:40px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_lrank2{width:90px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_lrank3{width:129px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_lrank4{width:208px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_lrank5{width:100px;line-height:14px;padding:0px;height:30px;}
+.tableW thead .th_lrank6{width:100px;line-height:14px;padding:0px;height:30px;}
+
+/* resellers */
+.section.resellers p{margin:15px 16px; font-size:14px;}
+.section.resellers p.btn{width:215px;height:60px;margin:0 0 10px 0; font-size:14px; line-height:21px; overflow:hidden; _zoom:1;}
+.section.resellers p.btn img{float:left; margin:0 25px 0 0;}
+.section.resellers p a{text-decoration:none;}
+.section.resellers p a:link,
+.section.resellers p a:visited{color:#A3A3A3; text-decoration:none;}
+.section.resellers p a:hover{color:#A3A3A3; text-decoration:underline;}
+.section.resellers h3{height:32px; margin:0 0 15px 0; border-bottom:1px solid #484848;}
+
+/* resellers */
+.resellers_set{width:670px;margin:0 0 10px 0px;}
+.resellers_set li{display:inline; margin:0 5px 0 0;}
+.section.resellers ul{margin:0 0 10px 0; font-size:14px;}
+
+/* web shop */
+.tableS{border-collapse:collapse; margin:0 0 20px 0; width:100%;}
+.tableS thead .title{height:30px;background:#484848;font-size:12px;font-weight:bold;font-family:"verdana";}
+.tableS thead .titleL{width:180px;color:#ececec;padding-left:17px;text-align:left;font-family:"verdana";}
+.tableS thead .titleR{width:465px;color:#e7ae00;padding-right:10px;text-align:right;font-family:"verdana";}
+.tableS thead img{vertical-align:middle;}
+.tableS tbpdu th,
+.tableS tbody td{border-bottom:1px solid #232323;}
+.tableS tbody th{padding:0px 0; width:197px; background:#191919; color:#8D8D8D;}
+.tableS tbody td{padding:12px 20px;font-size:13px;line-height:18px;}
+.tableS tbody .item_name{color:#725238;font-size:13px;font-weight:bold;}
+.tableS tfoot img{vertical-align:middle;}
+.tableS tfoot td{color:#b0b0b0;font-size:14px;font-weight:bold;height:38px;font-family:"verdana";text-align:right;}
+.npoint {color:#e7ae00;font-weight:bold;}
+.premiumset {width:107px;height:112px;position:relative;margin:0 auto;}
+.item_bg{width:94px;height:112px;position:relative;background:url(http://download.nttgame.com/knight/images/usko/webshop/item_bg.gif) no-repeat top;padding:10px 0 0 13px;text-align:left;margin:0 auto;}
+.webshop_btn {width:672px;height:78px;}
+.webshop_btn .btnL{float:left;padding-right:18px;}
+.webshop_btn .btnR{float:right;}
+.wshop_txtbox {position:relative;width:650px;height:36px;background:#353131;border:1px solid #565656;padding-left:20px;color:#afafaf;font-size:14px;text-align:left;}
+.wshop_txtbox .text{position:absolute;height:30px;top:5px;}
+.confirmation {position:relative;width:672px;height:201px;background:#191919;border:1px solid #292929;color:#afafaf;font-size:13px;font-family:"verdana";}
+.confirmation .img{position:absolute;width:188px;float:left;padding-top:45px;padding-left:34px;text-align:right;}
+.confirmation .txt{width:450px;min-height:130px;float:right;text-align:center;color:#808080;margin:0 auto;}
+.confirmation .title{color:#725238;font-weight:bold;font-size:14px;}
+.confirmation .text {color:#808080;font-size:13px;font-family:Verdana;}
+.premium_txt{color:#bd8255;font-weight:bold;}
+.buyset {position:relative;width:674px;height:135px;}
+.buy {position:absolute;width:650px;height:135px;color:#aeaeae;font-size:14px;text-align:left;}
+.char{position:absolute;float:right;text-align:right;width:80px;height:135px;top:3px;left:582px;}
+.buytext {position:absolute;float:left;width:650px;height:68px;background:#3e3030;border:1px solid #554343;padding:8px 5px 8px 20px;color:#aeaeae;font-size:14px;text-align:left;top:52px;}
+.shopbox{position:relative;width:670px;height:190px;background:#191919;border:1px solid #292929;color:#808080;text-align:center;margin:0 auto;font-size:12px;font-family:"verdana"}
+.shopbox .title{color:#725238;font-weight:bold;font-size:14px;top:40px;}
+.tableP{border-collapse:collapse; margin:0 0 10px 0; width:442px; border-top:2px solid #2b2b2b;margin:0 auto;}
+.tableP th,
+.tableP td{border-bottom:1px solid #2b2b2b;}
+.tableP th{padding:5px 0; width:138px; background:#010101; color:#8D8D8D;border-right:1px solid #2b2b2b;text-align:right;padding-right:20px;}
+.tableP td{padding:5px 10px;text-align:left;}
+.tableP td input,
+.tableP td img{vertical-align:middle;}
+.tableP td input.text{width:210px;}
+.tableP td input.text.half{width:210px;}
+.btngroup_shop {margin:10px 0 20px 0; text-align:center;}
+.websshop_popup {width:466px;min-height:448px;margin:0 auto;text-align:center;color:#d0bdb2;font-family:"verdana";font-size:13px;line-height:18px;}
+.popup_top {position:relative;width:466px;height:30px;background:url(http://download.nttgame.com/knight/images/usko/webshop/bg_popup_top.gif) no-repeat;}
+.popup_m {width:422px;min-height:391px;background:url(http://download.nttgame.com/knight/images/usko/webshop/bg_popup_center.gif) repeat-y;padding:0 23px 0 21px;text-align:left;font-family:"verdana";}
+.popup_m p{padding-left:12px;width:422px;}
+.popup_m h4{font-size:14px;font-family:"verdana";text-align:left;color:#cc6633;padding-left:12px;}
+.popup_m .text1 {font-family:"verdana";text-align:left;color:#9e5a3b;padding-left:12px;font-size:12px;}
+.popup_bottom {width:466px;height:27px;background:url(http://download.nttgame.com/knight/images/usko/webshop/bg_popup_bottom.gif) no-repeat;}
+.popup_top .btn_x{position:absolute;width:15px;height:15px;right:12px;top:12px;}
+.popup_m2 {width:422px;min-height:140px;background:url(http://download.nttgame.com/knight/images/usko/webshop/bg_popup_center.gif) repeat-y;padding:0 23px 0 21px;text-align:left;font-family:"verdana";}
+.popup_m2 p{font-size:13px;font-family:"verdana";text-align:center;line-height:21px;}
+
+
+/*Board 2013*/
+#notice_top_menu {
+	width:100%;
+	margin:0 0 10px 0;
+	text-align:center;
+}
+#notice_top_menu ul li {
+	font-size:13px;
+	font-weight:bold;
+	float:left;
+	padding:7px 8px 7px 8px;
+	border:1px solid #828282;
+}
+.ontop{
+	border:1px solid #808080;
+	background-color:#808080;
+}
+.ontop A {color:#212121;}
+.offtop{
+	border:1px solid #323232;
+	//background-color:#626262;
+	color:#646464;
+}
+.both{	clear:both;	}
+
+
+
+/*Account Status Style Start*/
+div.accountid {	color:#FC0;font-size:18px;font-family:sans-serif;min-width:645px;width:100%;margin:auto;border: 1px solid #06F;border-radius: 5px; -moz-border-radius: 5px;  -webkit-border-radius: 5px; padding:10px; text-align:center; background-color:#004080;}
+div.accountid span.title{	font-weight:bold;color:#F60;}
+table.gridtable {	font-family:sans-serif;font-size:12px;color:#cccccc;border-width:1px;border-color: #666666;border-collapse: collapse;min-width:645px;width:100%;margin:auto;}
+table.gridtable th {	border-width: 1px;padding: 10px;border-style: solid;border-color: #666666;color:#cccccc;font-size:14px;background-color:#666666;}
+table.gridtable td {	border-width:1px;padding:10px;border-style: solid;border-color: #666666;background-color:#232323;cellspacing:0;cellpadding:0;}
+table.gridtable td img{	padding:3px;}
+table.gridtable td.first{	width:145px;text-align:left;}
+table.gridtable td div.update{	margin:7px 0 0 0;width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/update.png); display: block;}
+table.gridtable td div.update:hover{	width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/update_over.png);}
+table.gridtable td div.ticket{	margin:7px 0 0 0;width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/ticket.png); display: block;}
+table.gridtable td div.ticket:hover{	width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/ticket_over.png);}
+table.gridtable td div.upgrade{	margin:7px 0 0 0;width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/upgrade.png); display: block;}
+table.gridtable td div.upgrade:hover{	width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/upgrade_over.png);}
+table.gridtable td div.verify{	margin:7px 0 0 0;width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/verify.png); display: block;}
+table.gridtable td div.verify:hover{	width:128px;height:33px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/verify_over.png);}
+/*Account Status Style End*/
+
+/*Email verification ending page*/
+div.btnLoc {text-align:center; padding:0 0 0 120px; height:400px;}
+div.btnLoc a {float:left;}
+div.btnLoc div.btn_verify{	margin:7px 9px 0 0;width:200px;height:31px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/btn_sms_verification.png); display: block;}
+div.btnLoc div.btn_verify:hover{	width:200px;height:31px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/btn_sms_verification_over.png);}
+div.btnLoc div.btn_myaccount{	margin:7px 9px 0 0;width:200px;height:31px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/btn_myaccountstatus.png); display: block;}
+div.btnLoc div.btn_myaccount:hover{	width:200px;height:31px;background-image:url(http://download.nttgame.com/knight/images/usko/account/status/btn_myaccountstatus_over.png);}

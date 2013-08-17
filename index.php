@@ -19,8 +19,7 @@ require_once ('includes/guvenlik/antiflood.php');
 define  ('GUVENLIK',true);
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 <meta name="description" content="Enjoy FREE to play Online MMORPG, Knight Online World. Experience the greatest PVP War in a fantasy setting medieval continents. Join for free now!" />
 <meta name="keywords" content="Knight Online World = Free to Play MMORPG, Join the epic PVP WAR Knight world, KnightOnline world, kol, usko, Ko, Kol, Knight, Kinayt, Knight oyun, mmo knight, mmorpg knight, knight online, knightonline, pvp, pvp mmo, pvp mmorpg, pk mmo, pk mmorpg" />

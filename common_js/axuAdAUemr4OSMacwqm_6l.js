@@ -1,0 +1,1 @@
+Tynt.sc({"d":true,"cc":"5","w":"KnightOnline","f":"362397760484902","b":true,"ss":"fglt"})

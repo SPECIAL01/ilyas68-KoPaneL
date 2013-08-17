@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0065)http://www.knightonlineworld.com/main/main_rank.gcs#axzz2cAzwBMxc -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Enjoy FREE to play Online MMORPG, Knight Online World. Experience the greatest PVP War in a fantasy setting medieval continents. Join for free now!">
+<meta name="keywords" content="Knight Online World = Free to Play MMORPG, Join the epic PVP WAR Knight world, KnightOnline world, kol, usko, Ko, Kol, Knight, Kinayt, Knight oyun, mmo knight, mmorpg knight, knight online, knightonline, pvp, pvp mmo, pvp mmorpg, pk mmo, pk mmorpg">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="imagetoolbar" content="no">
+<meta name="copyright" content="http://www.knightonlineworld.com">
+<title>Knight Online World = Free to Play MMORPG, Join the epic PVP WAR Knight world, KnightOnline world, kol, usko, Ko, Kol, Knight, Kinayt, Knight oyun, mmo knight, mmorpg knight, knight online, knightonline, pvp, pvp mmo, pvp mmorpg, pk mmo, pk mmorpg</title>
+<script async="" src="v2(1)"></script><script async="" src="axuAdAUemr4OSMacwqm_6l.js"></script><script async="" type="text/javascript" src="ti.js"></script><script async="" src="analytics.js"></script><script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="common.js"></script><script type="text/javascript" src="function.js"></script>
+<script type="text/javascript" src="common_func.js"></script>
+<!-- BEGIN google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-38026103-4', 'knightonlineworld.com');  ga('send', 'pageview');
+</script>
+<!-- END google Analytics-->
+<!-- BEGIN Tynt Script -->
+<script type="text/javascript">
+if(document.location.protocol=='http:'){
+ var Tynt=Tynt||[];Tynt.push('axuAdAUemr4OSMacwqm_6l');
+ (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}
+</script>
+<!-- END Tynt Script --><link href="main.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="knight_main_rank_xml.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+window.onload	=	function() {
+	WriteRank(1, 1);
+	show_rank(1,1);
+}
+
+function show_rank(rType,svrIndex ){
+	var selected_var = document.getElementById("nServer_all").value;
+	document.getElementById("tabmenu_01").innerHTML = '<a href="javascript:show_rank(1,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank01.gif" alt="Ladder" /></a>';
+	document.getElementById("tabmenu_02").innerHTML = '<a href="javascript:show_rank(2,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank02.gif" alt="Knight" /></a>';
+	document.getElementById("tabmenu_03").innerHTML = '<a href="javascript:show_rank(3,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank03.gif" alt="Clan" /></a>';
+	document.getElementById("tabmenu_04").innerHTML = '<a href="javascript:show_rank(4,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank04.gif" alt="War" /></a>';
+
+	if(rType == 1){
+		document.getElementById("tabmenu_01").innerHTML = '<a href="javascript:show_rank(1,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank01_on.gif" alt="Ladder" /></a>';
+	}else if(rType == 2) {
+		document.getElementById("tabmenu_02").innerHTML = '<a href="javascript:show_rank(2,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank02_on.gif" alt="Knight" /></a>';
+	}else if(rType == 3) {
+		document.getElementById("tabmenu_03").innerHTML = '<a href="javascript:show_rank(3,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank03_on.gif" alt="Clan" /></a>';
+	}else if(rType == 4) {
+		document.getElementById("tabmenu_04").innerHTML = '<a href="javascript:show_rank(4,'+selected_var+')" class="tab"><img src="http://download.nttgame.com/knight/images/usko/main/tab_rank04_on.gif" alt="War" /></a>';
+	}
+	WriteRank(rType, svrIndex);
+
+}
+//]]>
+</script>
+</head>
+<body ondragstart="return false" oncontextmenu="return false" onkeydown="return false" onselectstart="return false" style="background:#0a0a0a;">
+	<div id="content_r">
+	<div id="rankGroup" class="rank">
+	<form name="rform" method="post" action="">
+	<input type="hidden" name="rType" id="rType">
+	<input type="hidden" name="svrIndex" id="svrIndex">
+		<h2><img src="h_rank_121011.gif" alt="Rank"></h2>
+		<h3><span id="tabmenu_01"><a href="javascript:show_rank(1,1)" class="tab"><img src="tab_rank01_on.gif" alt="Ladder"></a></span></h3>
+		<h3><span id="tabmenu_02"><a href="javascript:show_rank(2,1)" class="tab"><img src="tab_rank02.gif" alt="Knight"></a></span></h3>
+		<h3><span id="tabmenu_03"><a href="javascript:show_rank(3,1)" class="tab"><img src="tab_rank03.gif" alt="Clan"></a></span></h3>
+		<h3><span id="tabmenu_04"><a href="javascript:show_rank(4,1)" class="tab"><img src="tab_rank04.gif" alt="War"></a></span></h3>
+		<div id="ladder" class="view">
+				<select id="nServer_all" title="Server select" onchange="javascript:show_rank(1,this.value )" style="width:140px;color:#626262;">
+								<option value="1">ARES</option>
+								<option value="2">RESURRECTION</option>
+								<option value="3">XIGENON</option>
+								<option value="4">BERAMUS</option>
+								<option value="5">ATTILA</option>
+								<option value="6">ANATOILA</option>
+								<option value="7">EDANA</option>
+								<option value="10">LOGOS</option>
+								<option value="11">RONARK</option>
+								<option value="13">AKARA</option>
+								<option value="17">KRONOS</option>
+								<option value="18">HELIOS</option>
+								<option value="19">TITAN</option>
+								<option value="20">DESTAN</option>
+							</select>
+		</div>
+		<div><p style="height:28px;">&nbsp;</p></div>
+		<div id="rank_list" name="rank_list">		<table class="tableRank">			<tbody><tr>				<th scope="col"><img src="th_karus_121011.gif" alt="Karus"></th>				<th scope="col"><img src="th_elmorad_121011.gif" alt="El morad"></th>			</tr><tr>	<td><span class="num num1">XyZCastieL</span></td>	<td><span class="num num1 numEl">BloodyTearzReturnz</span></td></tr><tr>	<td><span class="num num2">1Phantasmagor</span></td>	<td><span class="num num2 numEl">JiggaPleasE</span></td></tr><tr>	<td><span class="num num3">TedirginSazan</span></td>	<td><span class="num num3 numEl">_WhoCareS_</span></td></tr><tr>	<td><span class="num num4">daemagor</span></td>	<td><span class="num num4 numEl">1EXEVIEL1</span></td></tr><tr>	<td><span class="num num5">Crazy_eren</span></td>	<td><span class="num num5 numEl">Tanker34</span></td></tr></tbody></table></div>
+		<p class="more"><a href="http://www.knightonlineworld.com/war/rank.gcs" target="_top"><img src="btn_more.gif" alt="MORE"></a></p>
+	</form>
+	</div>
+</div>
+
+
+
+
+</body></html>

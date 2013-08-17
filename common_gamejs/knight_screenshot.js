@@ -1,0 +1,1 @@
+var knight_screenshot="0||";
