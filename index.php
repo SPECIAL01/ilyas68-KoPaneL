@@ -1,3 +1,24 @@
+<?php
+function acilma_suresi (){
+$time = explode( " ", microtime());
+$usec = (double)$time[0];
+$sec = (double)$time[1];
+return $sec + $usec;
+}
+$saymaya_basla = acilma_suresi();
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<?php
+
+include('config.php');
+include ('includes/security/security.php');
+require_once ('includes/guvenlik/antiflood.php');
+define  ('GUVENLIK',true);
+
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
