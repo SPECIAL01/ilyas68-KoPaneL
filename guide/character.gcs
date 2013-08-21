@@ -1,0 +1,137 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="description" content="Enjoy FREE to play Online MMORPG, Knight Online World. Experience the greatest PVP War in a fantasy setting medieval continents. Join for free now!" />
+<meta name="keywords" content="Knight Online World = Free to Play MMORPG, Join the epic PVP WAR Knight world, KnightOnline world, kol, usko, Ko, Kol, Knight, Kinayt, Knight oyun, mmo knight, mmorpg knight, knight online, knightonline, pvp, pvp mmo, pvp mmorpg, pk mmo, pk mmorpg" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="copyright" content="http://www.knightonlineworld.com" />
+<title>Knight Online World = Free to Play MMORPG, Join the epic PVP WAR Knight world, KnightOnline world, kol, usko, Ko, Kol, Knight, Kinayt, Knight oyun, mmo knight, mmorpg knight, knight online, knightonline, pvp, pvp mmo, pvp mmorpg, pk mmo, pk mmorpg</title>
+<script type="text/javascript" src="/common_js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="/common_js/common.js"></script>
+<script type="text/javascript" src="/common_js2/common_func.js"></script>
+<!-- BEGIN google Analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-38026103-4', 'knightonlineworld.com');  ga('send', 'pageview');
+</script>
+<!-- END google Analytics-->
+<!-- BEGIN Tynt Script -->
+<script type="text/javascript">
+if(document.location.protocol=='http:'){
+ var Tynt=Tynt||[];Tynt.push('axuAdAUemr4OSMacwqm_6l');
+ (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}
+</script>
+<!-- END Tynt Script --><link href="/css/sub.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/common_js/function.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+function goMenu(no){
+	document.getElementById("locationStr1").innerHTML = "<a href=\"javascript:goMenu(1)\">Karus</a>";
+	document.getElementById("locationStr2").innerHTML = "<a href=\"javascript:goMenu(2)\">El Morad</a>";
+	if(no == 1){
+		document.getElementById("locationStr1").innerHTML = "<a href=\"javascript:goMenu(1)\" class=\"on\">Karus</a>";
+		document.getElementById("topTitle_text").innerHTML = "Karus";
+	} else if(no == 2) {
+		document.getElementById("locationStr2").innerHTML = "<a href=\"javascript:goMenu(2)\" class=\"on\">El Morad</a>";
+		document.getElementById("topTitle_text").innerHTML = "El Morad";
+	}
+	document.getElementById("contents").src= "character_cont.gcs?m="+no;
+}
+
+window.onload	=	function() {
+	goMenu(1);
+}
+
+//]]>
+
+</script>
+</head>
+<body>
+<div id="wrap">
+	<script type="text/javascript" src="/common_js/gnb.js"></script>
+<script type="text/javascript">
+	$(function () {
+		$('#gnb').gnbBuilder(site_map);
+		globalGnbDropDown();
+	});
+</script>
+	<div id="header">
+		<div id="gnb">
+			<h1><a href="http://www.knightonlineworld.com">KNIGHT ONLINE</a></h1>
+			<p class="account"><a href="/account/">ACCOUNT</a></p>
+		</div>
+		<div id="gnb_TrustGuard">
+			<a name="trustlink" href="http://secure.trust-guard.com/certificates/7911" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace('http', 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;"><img name="trustseal" alt="Security Verified" style="border: 0;" src="https://c674753.ssl.cf2.rackcdn.com/security-7911-header.gif" /></a> 
+		</div>
+	</div>
+	<div id="container">
+		<div id="snb">
+			<iframe scrolling="no" name="ilogin" id="ilogin" width="238" height="100%" src="/account/login.gcs" marginheight="0" marginwidth="0" frameborder="0" align="center" allowTransparency="true" onload="iframeResize(this)"></iframe>			<div class="menu">
+				<h2><img src="http://download.nttgame.com/knight/images/usko/common/menu/h_guide.jpg" alt="Guide" /></h2>
+				<ul>
+					<li><a href="intro.gcs" >Introduction</a></li>
+					<li><a href="install.gcs">Installation</a></li>
+					<li><a href="gameplay.gcs">Game Play</a></li>
+					<li><a href="#" class="on">Character</a>
+						<ul>
+														<li><span id="locationStr1"></span></li>
+														<li><span id="locationStr2"></span></li>
+													</ul>
+					</li>
+
+				</ul>
+			</div>
+		<p style="padding:9px 0 10px 0;"><a href="/webmall/" title="WebShop"><img src="http://download.nttgame.com/knight/images/usko/common/btn_webshop_121011.jpg" alt="WebMall" /></a></p>
+<p style="padding-bottom:10px;"><a href="/download/" title="Game download"><img src="http://download.nttgame.com/knight/images/usko/common/btn_download_121011.jpg" alt="Game Download" /></a></p>
+<p style="padding-bottom:10px;"><a href="/guide/install.gcs" title="Beginner Guide"><img src="http://download.nttgame.com/knight/images/usko/common/btn_guide_121011.jpg" alt="Beginner Guide" /></a></p>
+<div class="common_left"></div>
+		</div>
+		<div id="content">
+			<p class="path">Knight &gt; Guide &gt; Character &gt; <span id="topTitle_text"></span></p>
+			<h3><img src="http://download.nttgame.com/knight/images/usko/guide/h_character.gif" alt="Character" /></h3>
+			<iframe scrolling="no" id="contents" name="contents" width="100%" height="100%" src="" marginheight="0" marginwidth="0" frameborder="0" align="center" onload="iframeResize(this)" allowTransparency="true"></iframe>
+		</div>
+	</div>
+	<!-- footer -->
+	<div id="footer">
+	<table class="tableFt" align="center">
+		<tbody>
+		<tr>
+			<td rowspan="2"><a href="http://www.knightonlineworld.com"><img src="http://download.nttgame.com/knight/images/usko/main/bg_ntt_logo.gif" /></a></td>
+			<td rowspan="2"><img src="http://download.nttgame.com/knight/images/usko/main/logo_line.gif" /></td>
+			<td>
+				<li><a href="javascript:parent.mgameIframeLayer('/include/popup.gcs?url=/include/user_agreement.gcs', 1005, 544, 1);">User Agreement</a></li>
+				<li><a href="javascript:parent.mgameIframeLayer('/include/popup.gcs?url=/include/policy.gcs', 1005, 544,1);">Privacy Policy</a></li>
+				<li><a href="javascript:parent.mgameIframeLayer('/include/popup.gcs?url=/include/rules_of_conduct.gcs', 1005, 544,1);">Rules of Conduct</a></li>
+			</td>
+		</tr>
+		<tr>
+			<td><address>Copyright &copy; 2005-2013. Mgame Corp. &amp; Noahsystem Co.,Ltd. All Rights Reserved And &copy; 2013 Licensed and published by Game Caf&#233; Services, Inc <br />
+				Registered in California, United States No C3258553. <br />
+			</address></td>	
+		</tr>
+		</tbody>
+	</table>
+</div>
+
+<!-- Google Code for Yeniden pazarlama etiketi -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 983271003;
+var google_conversion_label = "dr6cCLWU0QUQ24zu1AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/983271003/?value=0&amp;label=dr6cCLWU0QUQ24zu1AM&amp;guid=ON&amp;script=0"/></div></noscript></div>
+</body>
+</html>
