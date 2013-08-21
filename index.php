@@ -6,19 +6,14 @@ $sec = (double)$time[1];
 return $sec + $usec;
 }
 $saymaya_basla = acilma_suresi();
-?>
 
+$dlg = Sha1(rand(0,1000000));
+$dlg = substr($dlg, Rand(0,30), 10); 
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<?php
 
-include('config.php');
-include ('includes/security/security.php');
-require_once ('includes/guvenlik/antiflood.php');
-define  ('GUVENLIK',true);
-
-?>
 
 <head>
 <meta name="description" content="Enjoy FREE to play Online MMORPG, Knight Online World. Experience the greatest PVP War in a fantasy setting medieval continents. Join for free now!" />
@@ -210,7 +205,7 @@ window.onresize = function(){
 -->
 			<div class="aside">
 	<div><a href="/community/?rtype=1"><img src="http://download.nttgame.com/knight/images/usko/main/btn_forum_030613_b.jpg" alt="Forum" /></a></div>
-	<div><a href="/guide/character.gcs"><img src="http://download.nttgame.com/knight/images/usko/main/btn_character_030613_b.jpg" alt="Character" /></a></div>
+	<div><a href="/guide/character.gcs?guvenlik=<? echo $dlg ?>"><img src="http://download.nttgame.com/knight/images/usko/main/btn_character_030613_b.jpg" alt="Character" /></a></div>
 	<div><a href="/reseller/"><img src="http://download.nttgame.com/knight/images/usko/main/btn_resellers_030613_b.jpg" alt="Official ESN Resellers" /></a></div>
 	<div><img src="http://download.nttgame.com/knight/images/usko/main/support_030613.jpg" alt="Support" usemap="#SupportMap"/></div>
 	<div style="width:100%; text-align:left; font-weight:bold; margin:0 0 3px 10px;"><a href="http://www.youtube.com/user/OfficialNTTGame" style="color:#de852f;" target="_blank">Find Us here!</a></div>
